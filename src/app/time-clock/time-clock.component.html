@@ -1,0 +1,10 @@
+<p>time-clock works!</p>
+
+<!-- time-clock.component.html -->
+
+<div>
+    <p *ngIf="!clockedIn">Por favor ficha en</p>
+    <p *ngIf="clockedIn">Por favor ficha fuera</p>
+    <button (click)="clockInOut()">Fichar</button>
+  </div>
+  

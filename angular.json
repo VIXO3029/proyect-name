@@ -100,5 +100,10 @@
         }
       }
     }
+  },
+  "cli": {
+    "packageManager": "npm",
+    "analytics": false
+    
   }
 }
